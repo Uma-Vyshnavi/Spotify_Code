@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your music with you</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt=""> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1><b>YOUR FAVOURITES</b></h1>
+            <div>
+                <div class="songItem">
+                    <img src="covers/cover1.jpg" alt="c">
+                    <span class="songName">Tum Se Hi</span>
+                    <span class="songLength"><span class="songalign">05:23 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover2.jpg" alt="c">
+                    <span class="songName">Chinuku Taake</span>
+                    <span class="songLength"><span class="songalign">04:51 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover3.jpg" alt="c">
+                    <span class="songName">Neeli Meghamulalo</span>
+                    <span class="songLength"><span class="songalign">04:52 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover4.jpg" alt="c">
+                    <span class="songName">Wanna be Yours</span>
+                    <span class="songLength"><span class="songalign">03:04 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover5.jpg" alt="c">
+                    <span class="songName">Swagatham Krishna</span>
+                    <span class="songLength"><span class="songalign">03:23 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover6.jpg" alt="c">
+                    <span class="songName">Madhura Madhuratara</span>
+                    <span class="songLength"><span class="songalign">05:36 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/cover7.jpg" alt="c">
+                    <span class="songName">Challa Gaali Thakuthunna</span>
+                    <span class="songLength"><span class="songalign">04:05 <i id="7" class="fa-regular songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="play.gif" width="40px" alt="1" id="gif"><span id="mastersongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/04ebc3af6f.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
